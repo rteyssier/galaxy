@@ -5,6 +5,7 @@ notebook~=7.4.3
 
 # Python scientific stuff
 numpy
+scipy
 pyvista
 
 # Python kernel (optional)
