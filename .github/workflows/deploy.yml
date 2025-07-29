@@ -20,9 +20,7 @@ jobs:
           python-version: '3.11'
       - name: Install the dependencies
         run: |
-          pip install matplotlib
-	  pip install numpy
-       	  pip install pyvista
+          python -n pip install -r requirements.txt
       - name: Build the JupyterLite site
         run: |
           cp README.md content
