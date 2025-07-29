@@ -4,7 +4,6 @@ jupyterlab~=4.4.3
 notebook~=7.4.3
 
 # Python scientific stuff
-matplotlib
 numpy
 pyvista
 
